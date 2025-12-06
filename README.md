@@ -44,4 +44,26 @@ benchmarking modern neural rainfall–runoff architectures.
 - pandas, numpy, matplotlib
 
 Install with:
+conda env create -f environment.yml
+conda activate shinano
+
+
+---
+
+## Future Work
+
+- Snow-aware modelling
+- Multi-basin training
+- Transfer experiments
+- Hybrid physics–ML rainfall–runoff model
+
+---
+
+## Acknowledgements
+
+Data:
+- JMA AMeDAS meteorological observations
+- MLIT river discharge archives
+
+Research context inspired by hydrology work conducted during OIIP (NIT Nagano).
 
